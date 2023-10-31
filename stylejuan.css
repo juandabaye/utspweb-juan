@@ -220,7 +220,7 @@ header ul li a:hover{
 .prg{
     color: black;
     line-height: 35px;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     font-size: 22px;
 }
 .justify{
@@ -377,9 +377,11 @@ text-align: justify;
 letter-spacing: 1px;
 }
 .imgcampus{
+    max-width: 100%;
     width: 5px;
-    height: 280px;
-    border-radius: px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
     transform: translateX(50%);
     
 }
@@ -445,7 +447,7 @@ footer{
     font-size: 25px;
     margin-bottom: 60px;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1200px){
     .container{
         width: 90%;
     }
