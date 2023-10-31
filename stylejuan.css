@@ -222,6 +222,7 @@ header ul li a:hover{
     line-height: 35px;
     letter-spacing: 1px;
     font-size: 22px;
+    text-align: justify;
 }
 .justify{
     text-align: justify;
