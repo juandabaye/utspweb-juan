@@ -15,22 +15,11 @@
     z-index: 99999;
     transition: transform 0.1s ease; /* Animasi perubahan posisi cursor */
   }
-  @media (min-width: 992px) {
-    /* Container utama */
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    /* Header */
-    header h1 {
-        padding: 18px 0;
-    }
-}
 
 @media (max-width: 991px) {
     /* Sesuaikan header untuk tampilan tablet */
     header h1 {
+        width: 100%;
         font-size: 24px;
         padding: 10px 0;
     }
@@ -48,6 +37,7 @@
 @media (max-width: 767px) {
     /* Sesuaikan header untuk tampilan ponsel */
     header h1 {
+        width: 100%;
         font-size: 20px;
         padding: 10px 0;
     }
